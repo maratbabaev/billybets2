@@ -1002,6 +1002,16 @@ footer::before {
 }
 
 @media (max-width: 1919px) {
+  .banner__img {
+    width: 105%;
+    height: 105%;
+    position: absolute;
+    top: -2.5%;
+    left: -2.5%;
+  }
+  .banner {
+    border: 7px solid rgb(245, 227, 201);
+  }
   .cards__list {
     grid-template-columns: repeat(7, 1fr);
   }
